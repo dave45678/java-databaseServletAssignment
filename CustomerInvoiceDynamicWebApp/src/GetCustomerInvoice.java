@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/GetCustomerInvoice")
 public class GetCustomerInvoice extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    private static final String connectionUrl = "jdbc:oracle:thin:@localhost:1521:xe";
+    private static final String connectionUrl = "jdbc:oracle:thin:@localhost:1521:xeee";
 	
     /**
      * @see HttpServlet#HttpServlet()
